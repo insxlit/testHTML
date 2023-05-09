@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    background: #a3f2aa;
+    overflow: hidden;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+.logo {
+    width: 10%;
+    height: auto;
+    font-family: 'Revalia'; /*Сейчас не сработает, так как не подгрузил шрифт еще*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: auto;
+    margin-right: 30%;
+
+    text-align: center;
+    color: #34547A;
+}
+
+.menu_buttons {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    line-height: auto;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.laptop_image {
+    max-width: 20vw;
+    height: 20vw;
+    margin-right: 5%;
+}
+
+.about_description {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: auto;
+    width: 100%;
+    height: auto;
+
+    color: #000000;
+}
+
+.about_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: auto;
+    width: 100%;
+    height: auto;
+    
+    color: #727272;
+}
+
+.write_button {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: #34547A;
+    border-color: #ffffff;
+    border-width: 0.1vw;
+    border-radius: 0.2vw;
+    padding: 3%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: auto;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.info {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.info_title {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: auto;
+    text-align: center;
+
+    color: #000000;
+}
+
+.info_text {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: auto;
+    text-align: center;
+
+    color: #727272;
+}
+
+.stats {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    background-color: #a3f2aa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stats_elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.stats_elements > *:not(:last-child) {
+    margin-right: 10vw;
+}
+
+.stats_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.stats_image {
+    max-width: 5vw;
+    height: 5vw;
+    margin-right: 1vw;
+}
+
+.stats_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: auto;
+    text-align: center;
+}
+
+.skills {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills_description {
+    position: relative;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills_title {
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vw;
+    line-height: auto;
+    
+    color: #000000;
+}
+
+
+.skills_list {
+    width: 100%;
+    height: auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: auto;
+
+    color: #727272;   
+}
+
+.photo {
+    max-width: 20vw;
+    height: 20vw;
+}
